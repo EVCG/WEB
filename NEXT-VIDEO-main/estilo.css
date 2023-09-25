@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: solid 1px;
+    flex-direction: center;
+    background-color: rgb(195, 244, 228);
+    
+}
+
+.item1{
+    padding-left: 160px;
+    padding-right: 500px;
+    color:rgb(58, 197, 151);
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+.item2{
+   padding-right: 40px;
+}
+
+.item3{
+    padding-right: 40px;
+ }
+
+ .item4{
+    padding-right: 40px;
+ }
+
+
+.informacao{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+    
+}
+
+#topo{
+    padding-bottom: 30px;
+}
+
+#meio{
+    padding-bottom: 30px;
+}
+
+
+.imagem{
+    padding-right: 90px;
+}
+
+.botao{
+    padding-top: 40px;
+    padding-left: 170px;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+#texto{
+    border: solid 1px;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 70px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 70px;
+    background-color: rgb(49, 235, 173);
+    font-weight: bold;
+    color: rgb(59, 179, 139);
+}
+
+.obs{
+    display: flex;
+    flex-direction: column;
+    padding-left: 170px;
+}
+
+.anuncio{
+    display: flex;
+    padding-left: 180px;
+    padding-top: 20px;
+}
+
+.anuncio h1{
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    padding-left: 290px;
+    border: solid 1px;
+    width: 500px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+#frase2 h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+#frase2 p{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    font-size: 20px;
+    padding-bottom: 70px;
+}
+
+
+.final_site{
+    background-color: rgb(31, 31, 31);
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
