@@ -1,0 +1,33 @@
+ul{
+    list-style-type: none;
+}
+
+ul a{
+    width: 300px;
+    height: 40px;
+    text-indent: 40px;
+    display:block;
+    background: url(seta.png);
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position: 15px center;
+    background-color:rgb(243, 180, 64) ;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+ul a:hover {
+    background-color: orange;
+    color: white;
+}
+
+#home #navegacao .home a, 
+#sobre #navegacao .sobre a,
+#noticias #navegacao .noticias a,
+#servicos #navegacao .servicos a,
+#contatos #navegacao .contatos a  {
+    background-color: orange;
+    color: white;
+}
