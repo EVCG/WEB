@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+}
+/* HEADER*/
+.header{
+    display: flex;
+    flex-direction: column;
+    padding: 59px;
+    background-color: #294970;
+    background-image: url(imagem/fundo.png) ;
+    justify-content: center;
+    padding-left: 30%;
+
+}
+
+    .logo{
+        padding-bottom: 30px;
+        padding-left: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        
+    }
+
+        #texto1logo{
+            padding-left: 20px;
+            border-bottom: #B20030 solid 3px ;
+            display: block;
+            width: 90px;
+        }
+
+    .nav{
+        display: flex;  
+    }
+
+        .nav-bar .nav li{
+            list-style-type:none;
+
+        }
+
+        .nav-bar .nav a{
+            text-decoration: none;
+            color:  white;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 15px;
+            background-color: #B20030;
+        }
+
+        .nav-bar .nav a:hover{
+            background-color: rgb(209, 3, 3);
+        }
+
+        .header .nav #home {
+            background-color: rgb(209, 3, 3);
+            /* Outros estilos que você deseja aplicar quando o link "Home" estiver em :hover */
+        }
+
+
+/* CONTEUDO*/
+
+.container{
+    position: relative;
+    left: 23%;
+    top: 20px;
+    width: 1000px;
+}
+
+.caixa_lateral, .caixa_conteudo{
+    padding: 0.3%;
+    background-image: url(imagem/fundo-caixa.png);
+}
+
+.caixa_lateral{
+    background-color: white;
+    float: left;
+    margin-left: 2%;
+    width: 200px;
+}
+
+    .caixa_lateral h2{
+        background-color: #294970;
+        color: white;
+        padding:1px 80px 1px 4px;
+        
+    }
+
+    .caixa_lateral li{
+        list-style: none ;
+        line-height: 40px;
+        cursor: pointer;
+        position: relative;
+        left: -20px;
+    }
+
+    .caixa_lateral li:hover{
+        color: #789BB0;
+    }
+
+.caixa_conteudo{
+    background-color: white;
+    float: left;
+    margin-left: 2%;
+    width: 300px;
+}
+
+    .caixa_conteudo h2{
+        background-color: #294970;
+        color: white;
+        padding:1px 80px 1px 4px;
+        
+    }
+
+    .caixa_conteudo li{
+        list-style: none ;
+        line-height: 40px;
+        cursor: pointer;
+    }
+
+    .bloco_interno{
+        margin-top: 6px;
+        background-color: white;
+        overflow: hidden;
+    }
+
+    .bloco_interno img{
+        width: 300px;
+    }
+
+    .bloco_interno h3{
+        background-color: #B20030;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left: 2%;
+    }
+
+    .bloco_interno a{
+        color: #B20030;
+        text-decoration: none;
+        
+    }
+
+ 
+.news{
+    position: relative;
+    left: -554px;
+    top: 10px;
+}
+
+    #email{
+        width: 90%;
+        margin: 2% 0%;
+    }
+
+    #cadastrar{
+        background-color: #B20030;
+        color: white;
+       
+    }
+.conteudo-secundario{
+    position: relative;
+    left: 22.5%;
+    top:-80px;
+}
+.bloco_interno_conteudo{
+    display: flex;
+    padding-top: 15px;
+    margin-top: 2%;
+    background-color: white;
+    
+    
+}
+
+    .bloco_interno_conteudo img{
+        width: 30%;
+        
+    }
+
+    .text{
+        padding-left: 2%;
+    }
+
+    .text h4{
+        color: #789BB0;
+    }
+
+.copyright{
+    width: 98%;
+    float: left;
+    height: 60px;
+    background-color: #294970;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-left: 2%;
+    margin-top: 2%;
+    
+}
+    
