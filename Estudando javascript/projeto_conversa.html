@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lista de Mensagens</title>
+</head>
+<body>
+    <h1>Lista de Mensagens</h1>
+    <input type="text" id="mensagemInput" placeholder="Digite sua mensagem">
+    <button onclick="adicionarMensagem()">Adicionar</button>
+    <ul id="listaMensagens"></ul>
+
+    <script>
+        function adicionarMensagem() {
+            // Obtenha o valor digitado pelo usuário no campo de entrada
+            var mensagem = document.getElementById("mensagemInput").value;
+
+            if (mensagem) {
+                // Crie um novo elemento de lista (li) para a mensagem
+                var listItem = document.createElement("li");
+                listItem.textContent = mensagem;
+
+                // Adicione o novo item à lista de mensagens
+                var listaMensagens = document.getElementById("listaMensagens");
+                listaMensagens.appendChild(listItem);
+
+                // Limpe o campo de entrada
+                document.getElementById("mensagemInput").value = "";
+            }
+        }
+    </script>
+</body>
+</html>
