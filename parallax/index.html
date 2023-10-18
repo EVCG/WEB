@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax</title>
+    <style>
+        body,html{
+            margin:0;
+            font: 16px "Lato", sans-serif;
+            color: #777;
+            height: 100%;
+            /* border: 1px solid red; */
+        }
+
+        .conteudo{
+            color: #777;
+            background-color: white;
+            text-align: justify;
+            padding: 50px 50px;
+        }
+
+        /*efeito parallax*/
+        .caixa1, .caixa2, .caixa3, .caixa4{
+            opacity: 0.7;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed ;
+        }
+
+        .caixa1{
+            background-image: url(imagens/imagem1.jpg);
+        }
+        .caixa2{
+            background-image: url(imagens/imagem2.jpg);
+        }
+        .caixa3{
+            background-image: url(imagens/imagem3.jpg);
+        }
+        .caixa4{
+            background-image: url(imagens/imagem4.jpg);
+        }
+
+        .conteudo-titulo{
+            position: relative;
+            left: 0;
+            top: 45%;
+            width: 100%;
+            text-align: center;
+        }
+
+        .conteudo-titulo .titulo{
+            padding: 18px;
+            width: 50%;
+            background-color: #111;
+            color: white;
+            font-size: 25px;
+            letter-spacing: 5px;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div  class="caixa1">
+        <div class="conteudo-titulo">
+            <span class="titulo">
+                PASSEIO DE BALÃO
+            </span>
+        </div>
+    </div>
+    
+    <div class="conteudo">
+        <h3>Parallax</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porttitor interdum feugiat. Mauris a ligula a mi aliquam laoreet fringilla in dui. Cras nisl tellus, feugiat sed posuere vel, luctus vel magna. Vestibulum sagittis sapien id urna varius accumsan. Nam porta diam ligula, vel interdum mauris viverra non. Donec non risus placerat, blandit ex non, ultrices felis. Suspendisse vel dignissim dui. Maecenas molestie arcu id nunc vehicula, ac consequat eros condimentum. Proin vitae auctor nulla. Nam eget ante sapien. Aliquam erat volutpat. Ut tempus maximus mattis. Maecenas blandit porta congue. Donec turpis urna, tincidunt eu ligula vitae, aliquam mattis arcu. Fusce at dolor sodales urna hendrerit tempus.</p>
+    </div>
+
+    <div class="caixa2" >
+        <div class="conteudo-titulo">
+            <span class="titulo">
+                MONTANHAS
+            </span>
+        </div>
+    </div>
+    
+    <div class="caixa3" >
+        <div class="conteudo-titulo">
+            <span class="titulo">
+                POR-DO-SOL
+            </span>
+        </div>
+    </div>
+
+    <div class="caixa4" >
+        <div class="conteudo-titulo">
+            <span class="titulo">
+                ESTRADA
+            </span>
+        </div>
+    </div>
+
+</body>
+</html>
