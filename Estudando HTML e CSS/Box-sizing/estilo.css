@@ -1,0 +1,25 @@
+
+.caixa{
+    width: 300px;
+    height: 300px;
+    background-color: #b9c941;
+    padding: 10px;
+    /* serve para que a caixa criada não seja alterada com o padding use prefixos que nem o outro abaixo */
+
+    /* -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; */
+
+    box-sizing: border-box;
+    /*prefixo do border para navegadores antigos*/
+    /* -webkit-border-radius: 20px 90px;
+    -moz-border-radius: 20px 90px; */
+
+     /*border-radius: 1px 1px 1px 1px; pode ser escrito assim, alguns navegadores não suportam essa função, para concertar isso coloque alguns prefixos*/
+    border-radius: 20px;
+    margin: 10px;
+    box-shadow: 10px 10px 10px black;
+}
+
+.caixa h3{
+    text-align: center;
+}
